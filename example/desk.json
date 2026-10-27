@@ -1,0 +1,52 @@
+{
+ "title": "Example project",
+ "heading": "Example project: review",
+ "media": "media",
+ "clips": [
+  {
+   "id": "intro",
+   "title": "Opening hook",
+   "versions": [
+    {
+     "v": "v1",
+     "file": "intro-v1.mp4"
+    },
+    {
+     "v": "v2",
+     "file": "intro-v2.mp4"
+    }
+   ],
+   "why": "The first four seconds that decide whether anyone keeps watching."
+  },
+  {
+   "id": "demo",
+   "title": "Product walkthrough",
+   "versions": [
+    {
+     "v": "v1",
+     "file": "demo-v1.mp4"
+    },
+    {
+     "v": "v2",
+     "file": "demo-v2.mp4",
+     "checkpoints": [
+      {
+       "t": 1.0,
+       "note": "check the cut lands on the beat"
+      }
+     ]
+    }
+   ],
+   "why": "The feature shown end to end.",
+   "scenes": [
+    {
+     "kicker": "title card",
+     "at": 0.5,
+     "until": 2.0
+    }
+   ]
+  }
+ ],
+ "eyebrow": "Example \u00b7 two clips, two versions each",
+ "note": "v2 moves the caption band to the bottom of the frame."
+}

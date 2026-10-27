@@ -1,0 +1,14 @@
+{
+ "id": "example1",
+ "clip": "intro",
+ "version": "v1",
+ "t": 1.5,
+ "text": "Captions cover the face here; move them lower.",
+ "status": "resolved",
+ "by": "Reviewer",
+ "createdAt": "2026-01-01T12:00:00.000Z",
+ "updatedAt": "2026-01-01T12:30:00.000Z",
+ "resolvedIn": "v2",
+ "reply": "Caption band moved to the bottom in v2.",
+ "resolvedBy": "Editor"
+}
