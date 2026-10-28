@@ -131,6 +131,12 @@ Every command takes `--project DIR` (by default, the nearest folder above you wi
 - Changes are accepted only from the page itself. A request needs the page's `X-Desk` header, and one coming from another site is refused, so a web page you visit can't post notes to your desk.
 - Video file names are checked against a strict pattern before anything is read from disk.
 
+## Contributing
+
+Bug reports, ideas and pull requests are welcome. Open an [issue](https://github.com/a-makelky/video-review-desk/issues) or a pull request.
+
+This repo is published from the copy I use day to day, so pull requests aren't merged here directly. When I take one, I apply it to my copy, it syncs back to this repo, and I close the pull request with a link to the commit. You keep the credit.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
