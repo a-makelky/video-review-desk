@@ -254,7 +254,7 @@ function renderClip(c) {
       if (n.by && n.by === me) { const d = document.createElement("button"); d.textContent = "Delete"; d.addEventListener("click", () => deleteNote(n)); ops.appendChild(d); }
     }
     const meta = document.createElement("div"); meta.className = "meta";
-    meta.textContent = `${n.version}${n.by && n.by !== me && !/^u_/.test(n.by) ? " · " + n.by : ""}${n.status === "resolved" ? " · resolved" + (n.resolvedIn ? " in " + n.resolvedIn : "") : " · open"}`;
+    meta.textContent = `${n.version}${n.by && n.by !== me && !/^u_/.test(n.by) ? " · " + n.by : ""}${n.status === "resolved" ? " · resolved" + (n.resolvedIn ? " in " + n.resolvedIn : "") + (n.resolvedBy && n.resolvedBy !== n.by ? " by " + n.resolvedBy : "") : " · open"}`;
     li.append(tc, tx, ops, meta);
     if (n.reply) { const rp = document.createElement("p"); rp.className = "reply"; rp.textContent = n.reply; li.appendChild(rp); }
     ul.appendChild(li);
